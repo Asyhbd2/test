@@ -1,0 +1,88 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8E1; /* Cream background */
+}
+
+/* Navbar Wrapper */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;   
+    background:#FFF8E1 ;
+    border-top: 10px solid #D7A76E; /* Light brown top border */
+    border-bottom: 10px solid #D7A76E; /* Light brown bottom border */
+    font-size: 25px;
+}
+
+/* Logo Styles */
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+/* Navbar Title */
+.navbar-title {
+    font-size: 2rem; /* Adjusted to match buttons */
+    font-weight: bold;
+    color: #FFF8E1; /* Cream text */
+    background-color: #F8BBD0; /* Pink background */
+    padding: 5px 15px; /* Slimmer padding to match buttons */
+    border-radius: 8px;
+    border: 2px solid #D7A76E; /* Light brown border */
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 10px; /* Equal spacing */
+}
+
+/* Navbar Buttons Container */
+.navbar-buttons {
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Button Styles */
+.navbar-buttons .btn {
+    text-decoration: none;
+    font-size: 18px; /* Same size as title */
+    font-weight: bold;
+    color: #FFF8E1; /* Cream text */
+    background-color: #F8BBD0; /* Pink button background */
+    padding: 5px 15px; /* Slimmer padding */
+    border-radius: 8px;
+    border: 2px solid #D7A76E; /* Light brown border */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.navbar-buttons .btn:hover {
+    transform: scale(1.05);
+    background-color: #FFE0E8; /* Lighter pink on hover */
+}
+
+/* Cart Icon */
+.carrito-icon {
+    width: 120px;
+    height: 120px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #FFF8E1; /* Cream background */
+    color: #F8BBD0; /* Pink text */
+    padding: 15px;
+    font-size: 18px; /* Larger font size */
+    border-top: 12px solid #D7A76E; /* Light brown border at top */
+    border-bottom: 12px solid #D7A76E; /* Light brown border at bottom */
+    margin-top: 20px;
+}
