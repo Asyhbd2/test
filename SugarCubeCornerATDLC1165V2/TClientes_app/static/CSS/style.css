@@ -1,0 +1,71 @@
+body {
+    background-image: url(../IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Espacio entre logo, botones y carrito */
+    align-items: center;
+    border-top: 5px solid #D7A76E;
+    border-bottom: 5px solid #D7A76E;
+    background-color: #FFF8E1;
+    height: 100px; /* Altura fija del header */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100px;
+    height: 100%; /* Ajusta el logo a la altura del header */
+}
+
+.carritoimagen {
+    width: 100px;
+    height: 100%; /* Ajusta la imagen del carrito a la altura del header */
+}
+
+.nav-bar {
+    display: flex;
+    flex-grow: 1; /* Ocupa el espacio restante entre logo y carrito */
+    justify-content: space-evenly; /* Distribuye los botones uniformemente */
+    align-items: center; /* Alinea verticalmente los botones */
+    height: 100%; /* Asegura que el contenedor ocupe toda la altura del header */
+}
+
+.navbar-buttons {
+    background-color: #F8BBD0;
+    font-size: 2rem; /* Aumenta el tamaño del texto */
+    font-weight: bold; /* Hace el texto más visible */
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    margin: 0; /* Sin márgenes adicionales */
+    border: 5px solid #D7A76E;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    height: 80%; /* Aumenta el tamaño de los botones al 80% de la altura del header */
+    flex: 1; /* Hace que todos los botones tengan el mismo ancho */
+    box-sizing: border-box; /* Incluye borde y padding en el tamaño total */
+}
+
+footer{
+    display: flex;
+    justify-content: space-between; /* Espacio entre logo, botones y carrito */
+    align-items: center;
+    border-top: 10px solid #D7A76E;
+    border-bottom: 10px solid #D7A76E;
+    background-color: #FFF8E1;
+    font-size: 2rem;
+    height: 60px; /* Altura fija del header */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#F8BBD0;
+    padding: 0;
+    box-sizing: border-box;
+}

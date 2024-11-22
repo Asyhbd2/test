@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Cube Corner</title>
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+    <link rel="icon" href="{% static 'IMG/icono.png' %}" type="image/png">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+            <!-- Logo e ícono -->
+            <img src="{% static 'IMG/icono.png' %}" alt="SugarCubeCornerLogo" class="logo">
+             <div class="nav-bar">
+                <a href="#1"><button class="navbar-buttons" id="boton">SUGAR CUBE CORNER</button></a>
+                <a href="#2"><button class="navbar-buttons" id="boton">PRODUCTOS</button></a>
+                <a href="#3"><button class="navbar-buttons" id="boton">CUENTA</button></a>
+            <a href="#4">
+                <img src="{% static 'IMG/carrito.png' %}" alt="Carrito" class="carritoimagen">
+            </a>
+             </div>
+    </header>
+    {% block cuerpo %}
+
+    {% endblock %}
+    <footer>
+        <p>Angel Tadeo De Leon Ceniceros 5-J ©Sugar Cube Corner</p>
+    </footer>
+</body>
+</html>
